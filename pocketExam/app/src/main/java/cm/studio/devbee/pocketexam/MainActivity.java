@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public void setupViewPager(ViewPager viewPager){
         TabsAdapter tabsAdapter=new TabsAdapter(getSupportFragmentManager());
         tabsAdapter.addFragment(new BepcFragment (),"Bepc");
-        tabsAdapter.addFragment(new BacFragment (),"Bac");
         tabsAdapter.addFragment(new ProbatoireFragment (),"Probatoire");
+        tabsAdapter.addFragment(new BacFragment (),"Bac");
         tabsAdapter.addFragment(new AproposFragment (),"A propos");
         viewPager.setAdapter(tabsAdapter);
 

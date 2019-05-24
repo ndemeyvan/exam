@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ListExamChoiceActivity"></activity>
+        <activity android:name=".activity.ListExamChoiceActivity" />
+        <activity android:name=".activity.ReadActivity" />
+        <activity android:name=".activity.ChoixFinalActivity"></activity>
     </application>
 
 </manifest>
